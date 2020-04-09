@@ -1,10 +1,12 @@
 {
   "name": "@tafalk/material-color-generator",
-  "version": "1.0.0",
-  "description": "Generates material colors",
+  "version": "0.1.0",
+  "description": "Generates colors",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "homepage": "https://github.com/tafalk/material-color-generator#readme",
   "dependencies": {
     "@types/node": "^13.11.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
   }
 }
