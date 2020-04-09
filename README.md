@@ -1,5 +1,7 @@
 # tafalk/material-color-generator
 
+[![GitHub license](https://img.shields.io/github/license/tafalk/material-color-generator)](https://github.com/tafalk/material-color-generator/blob/master/LICENSE)
+
 Generates random colors
 
 ## Install
