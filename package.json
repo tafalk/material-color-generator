@@ -1,0 +1,26 @@
+{
+  "name": "@tafalk/material-color-generator",
+  "version": "1.0.0",
+  "description": "Generates material colors",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tafalk/material-color-generator.git"
+  },
+  "keywords": [
+    "material-design",
+    "color"
+  ],
+  "author": "tafalk.app@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tafalk/material-color-generator/issues"
+  },
+  "homepage": "https://github.com/tafalk/material-color-generator#readme",
+  "dependencies": {
+    "@types/node": "^13.11.1"
+  }
+}
