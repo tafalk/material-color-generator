@@ -1,6 +1,6 @@
 {
   "name": "@tafalk/material-color-generator",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Generates colors",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,6 +29,7 @@
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "@types/node": "^13.11.1",
+    "codecov": "^3.6.5",
     "jest": "^25.3.0",
     "ts-jest": "^25.3.1",
     "typescript": "^3.8.3"
