@@ -1,6 +1,7 @@
 module.exports = {
+  roots: ["<rootDir>/src"],
   transform: {
-    "^.+\\.(t)sx?$": "ts-jest",
+    "^.+\\.tsx?$": "ts-jest",
   },
   coverageDirectory: "./coverage/",
   collectCoverage: true,
