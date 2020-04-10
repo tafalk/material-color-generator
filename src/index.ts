@@ -51,7 +51,7 @@ const hash = (s: string) => {
   }
   return String(a);
 };
-const getColor = (str: string, mode: string) => {
+const GetColor = (str: string, mode: string) => {
   const validInputModes = ["light", "dark"];
   if (!validInputModes.includes(mode)) {
     throw new Error(
@@ -68,4 +68,4 @@ const getColor = (str: string, mode: string) => {
   return modeMap.get(calcIndex) ?? modeDefault;
 };
 
-export { getColor };
+export { GetColor };

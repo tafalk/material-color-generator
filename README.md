@@ -2,6 +2,8 @@
 
 [![GitHub license](https://img.shields.io/github/license/tafalk/material-color-generator)](https://github.com/tafalk/material-color-generator/blob/master/LICENSE)
 
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/tafalk/material-color-generator/master.svg?style=flat-square)](https://codecov.io/gh/tafalk/material-color-generator/)
+
 Generates random colors
 
 ## Install
