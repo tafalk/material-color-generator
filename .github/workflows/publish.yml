@@ -16,6 +16,16 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: npm install
+      - name: Generate coverage report
+        run: npm test
+      - name: Upload coverage to Codecov  
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage/coverage.xml
+          flags: unittests
+          name: codecov-umbrella
+          fail_ci_if_error: true
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
