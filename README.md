@@ -12,6 +12,13 @@ Generates random colors
 npm install @tafalk/material-color-generator
 ```
 
+And use it in your code like:
+
+```js
+import { GetColor } from '@tafalk/material-color-generator'
+const color = GetColor('my string', 'dark'); // -> something like 'ffffff'
+```
+
 ## More possibilities
 
 - [SO - create-a-hexadecimal-colour-based-on-a-string-with-javascript](https://stackoverflow.com/questions/3426404/create-a-hexadecimal-colour-based-on-a-string-with-javascript)
