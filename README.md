@@ -4,7 +4,10 @@
 ![build](https://github.com/tafalk/material-color-generator/workflows/Publish/badge.svg)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@tafalk/material-color-generator)
 
-Generates random colors in an idempotent way: a string returns the same color each and every time.
+Idempotently matches given string to a material color.
+
+*Light* and *dark* classification is applied regarding the color chart [here](https://material-ui.com/customization/color/): If the text color is black for a background, it is considered as a *light* one; and if white, it is *dark*.
+
 
 ## Install
 
