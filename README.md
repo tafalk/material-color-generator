@@ -1,7 +1,8 @@
 # tafalk/material-color-generator
 
 [![GitHub license](https://img.shields.io/github/license/tafalk/material-color-generator)](https://github.com/tafalk/material-color-generator/blob/master/LICENSE)
-
+![build](https://github.com/tafalk/material-color-generator/workflows/Publish/badge.svg)
+![GitHub code size](https://img.shields.io/github/languages/code-size/tafalk/material-color-generator)
 Generates random colors in an idempotent way: a string returns the same color each and every time.
 
 ## Install
