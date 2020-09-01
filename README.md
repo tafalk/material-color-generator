@@ -3,6 +3,7 @@
 [![GitHub license](https://img.shields.io/github/license/tafalk/material-color-generator)](https://github.com/tafalk/material-color-generator/blob/master/LICENSE)
 ![build](https://github.com/tafalk/material-color-generator/workflows/Publish/badge.svg)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@tafalk/material-color-generator)
+![npm](https://img.shields.io/npm/dm/@tafalk/material-color-generator)
 
 Idempotently matches given string to a material color.
 
