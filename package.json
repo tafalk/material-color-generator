@@ -1,6 +1,6 @@
 {
   "name": "@tafalk/material-color-generator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A zero-runtime-dependency package for generating material colors out of strings",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,8 +28,8 @@
   "homepage": "https://github.com/tafalk/material-color-generator#readme",
   "devDependencies": {
     "@types/jest": "^25.2.3",
-    "@types/node": "^13.13.30",
-    "codecov": "^3.8.0",
+    "@types/node": "^13.13.34",
+    "codecov": "^3.8.1",
     "jest": "^25.5.4",
     "ts-jest": "^25.5.1",
     "typescript": "^3.9.7"
